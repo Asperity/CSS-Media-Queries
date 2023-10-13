@@ -1,0 +1,89 @@
+body
+{
+    background-color: rgb(228, 28, 1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1
+{
+    color: rgb(253, 253, 253)
+}
+
+p
+{
+    color: rgb(0, 70, 199)
+}
+
+.optic
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 600px)
+{
+    body
+    {
+        background-color: blueviolet;
+    }
+
+    h1
+    {
+        font-size: 24px;
+    }
+
+    p
+    {
+        font-size: 16px;
+    }
+
+    .optic
+    {
+        width: 20%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px)
+{
+    h1
+    {
+        font-size: 32px;
+    }
+
+    p
+    {
+        font-size: 18px;
+    }
+
+    .optic
+    {
+        width : 30%;
+    }
+}
+
+@media (min-width: 1025px)
+{
+    body
+    {
+        background-color: darkmagenta;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    h1 
+    {
+        font-size: 48px;
+    }
+
+    p 
+    {
+        font-size: 20px;
+    }
+
+    .optic
+    {
+        width: 50%;
+    }
+}
